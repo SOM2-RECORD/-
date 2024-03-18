@@ -22,9 +22,9 @@ public class DailyFortuneMessenger {
 	// cron 초 분 시 일 월 요일 - *:매번
 	@Scheduled(cron = "0 0 9 * * *")
 	public void sendDailyZodiacFortune() {
-		//오늘의 띠별 운세 받아오기
+		// 오늘의 띠별 운세 받아오기
 		List<String> fortuneList = scraper.scrapeZodiacFortune();
-		System.out.println("오늘의 운세: " + fortuneList.toString());
+		// 카카오톡으로 보내기
 		messenger.sendTextMessageDefaultTwice(fortuneList, KakaoApiConfig.MESSAGE_TO_ME_URL);
 	}
 

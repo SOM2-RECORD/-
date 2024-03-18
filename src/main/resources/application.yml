@@ -7,5 +7,4 @@ server:
   
 logging:
   file:
-    path: log/
-    name: AppLog.log
+    path: D:\\0.Genie_Project\\PlayWith\\workspace_playwith\\playtodaysfortune\\log
