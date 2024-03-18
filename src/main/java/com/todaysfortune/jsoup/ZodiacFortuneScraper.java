@@ -1,6 +1,8 @@
 package com.todaysfortune.jsoup;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -17,7 +19,10 @@ public class ZodiacFortuneScraper {
 	
 	private static final Logger logger = LoggerFactory.getLogger(ZodiacFortuneScraper.class);
 	
-	public StringBuilder scrapeZodiacFortune(){
+	/* StringBuilder에서 List로 변경한 이유
+	 * Text 길이가 길어서 카카오톡으로 공유했을 때 일부 잘려서 보이지 않아서 두 번에 나눠서 보내기 위함 
+	*/
+	public List<String> scrapeZodiacFortune(){
         
 		try {
             String url = TodayFortuneConfig.ZODIAC_FORTUNE_URL;
@@ -29,12 +34,11 @@ public class ZodiacFortuneScraper {
                 
                 if (fortuneInfo != null) {
                     Elements fortuneInfoAll = fortuneInfo.select(".txt_box");
-                    StringBuilder fortuneText = new  StringBuilder();
-                    
+                    List<String> fortuneList = new ArrayList<>();
                     for (Element info : fortuneInfoAll) {
-                    	fortuneText.append(info.text()).append("\n\n");
+                    	fortuneList.add(info.text() + "\n\n");
                     }
-                    return fortuneText;
+                    return fortuneList;
                     
                 } else {
                     logger.info("Fortune information not found.");

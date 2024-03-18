@@ -1,2 +1,6 @@
 /src/main/java/com/todaysfortune/confidentials/KakaoApiConfigSecret.java
 /src/main/java/com/todaysfortune/confidentials/TodayFortuneConfig.java
+src/main/java/com/todaysfortune/api/kakao/cont.java
+*.log
+AppLog.log
+AppLog.log

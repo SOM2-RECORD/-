@@ -1,75 +1,58 @@
-2024-03-18T21:35:37.218+09:00  INFO 9816 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 9816 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
-2024-03-18T21:35:37.220+09:00  INFO 9816 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-03-18T21:35:37.850+09:00  INFO 9816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2024-03-18T21:35:37.859+09:00  INFO 9816 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-03-18T21:35:37.860+09:00  INFO 9816 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-03-18T21:35:37.907+09:00  INFO 9816 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-03-18T21:35:37.907+09:00  INFO 9816 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 656 ms
-2024-03-18T21:35:38.176+09:00  INFO 9816 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2024-03-18T21:35:38.183+09:00  INFO 9816 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.284 seconds (process running for 1.848)
-2024-03-18T21:42:35.459+09:00  INFO 9816 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-03-18T21:42:37.094+09:00  INFO 27352 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 27352 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
-2024-03-18T21:42:37.096+09:00  INFO 27352 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-03-18T21:42:37.756+09:00  INFO 27352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2024-03-18T21:42:37.764+09:00  INFO 27352 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-03-18T21:42:37.765+09:00  INFO 27352 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-03-18T21:42:37.811+09:00  INFO 27352 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-03-18T21:42:37.811+09:00  INFO 27352 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 678 ms
-2024-03-18T21:42:38.081+09:00  INFO 27352 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2024-03-18T21:42:38.090+09:00  INFO 27352 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.337 seconds (process running for 1.932)
-2024-03-18T21:42:41.678+09:00  INFO 27352 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-03-18T21:42:41.679+09:00  INFO 27352 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-03-18T21:42:41.679+09:00  INFO 27352 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-03-18T21:42:42.500+09:00  INFO 27352 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
-2024-03-18T21:45:25.107+09:00  INFO 27352 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-03-18T21:45:26.737+09:00  INFO 25044 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 25044 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
-2024-03-18T21:45:26.739+09:00  INFO 25044 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-03-18T21:45:27.410+09:00  INFO 25044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2024-03-18T21:45:27.420+09:00  INFO 25044 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-03-18T21:45:27.420+09:00  INFO 25044 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-03-18T21:45:27.470+09:00  INFO 25044 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-03-18T21:45:27.470+09:00  INFO 25044 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 698 ms
-2024-03-18T21:45:27.759+09:00  INFO 25044 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2024-03-18T21:45:27.766+09:00  INFO 25044 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.361 seconds (process running for 1.98)
-2024-03-18T21:45:30.635+09:00  INFO 25044 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-03-18T21:45:30.635+09:00  INFO 25044 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-03-18T21:45:30.635+09:00  INFO 25044 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-03-18T21:45:31.189+09:00  INFO 25044 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
-2024-03-18T21:46:55.002+09:00  INFO 25044 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-03-18T21:46:56.601+09:00  INFO 12936 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 12936 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
-2024-03-18T21:46:56.604+09:00  INFO 12936 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-03-18T21:46:57.272+09:00  INFO 12936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2024-03-18T21:46:57.282+09:00  INFO 12936 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-03-18T21:46:57.282+09:00  INFO 12936 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-03-18T21:46:57.329+09:00  INFO 12936 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-03-18T21:46:57.329+09:00  INFO 12936 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 694 ms
-2024-03-18T21:46:57.601+09:00  INFO 12936 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2024-03-18T21:46:57.608+09:00  INFO 12936 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.351 seconds (process running for 1.978)
-2024-03-18T21:47:08.231+09:00  INFO 12936 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-03-18T21:47:08.232+09:00  INFO 12936 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-03-18T21:47:08.233+09:00  INFO 12936 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-03-18T21:47:08.788+09:00  INFO 12936 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
-2024-03-18T21:47:41.457+09:00  INFO 12936 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-03-18T21:47:43.033+09:00  INFO 19620 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 19620 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
-2024-03-18T21:47:43.035+09:00  INFO 19620 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-03-18T21:47:43.729+09:00  INFO 19620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2024-03-18T21:47:43.737+09:00  INFO 19620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-03-18T21:47:43.738+09:00  INFO 19620 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-03-18T21:47:43.784+09:00  INFO 19620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-03-18T21:47:43.785+09:00  INFO 19620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 718 ms
-2024-03-18T21:47:44.068+09:00  INFO 19620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2024-03-18T21:47:44.075+09:00  INFO 19620 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.38 seconds (process running for 1.982)
-2024-03-18T21:47:51.799+09:00  INFO 19620 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-03-18T21:47:51.799+09:00  INFO 19620 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-03-18T21:47:51.800+09:00  INFO 19620 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-03-18T21:47:52.331+09:00  INFO 19620 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
-2024-03-18T21:48:14.864+09:00  INFO 19620 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2024-03-18T21:48:16.420+09:00  INFO 8216 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 8216 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
-2024-03-18T21:48:16.422+09:00  INFO 8216 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
-2024-03-18T21:48:17.114+09:00  INFO 8216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2024-03-18T21:48:17.123+09:00  INFO 8216 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-03-18T21:48:17.123+09:00  INFO 8216 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-03-18T21:48:17.170+09:00  INFO 8216 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-03-18T21:48:17.170+09:00  INFO 8216 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 717 ms
-2024-03-18T21:48:17.447+09:00  INFO 8216 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2024-03-18T21:48:17.454+09:00  INFO 8216 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.369 seconds (process running for 1.972)
+2024-03-19T00:11:27.028+09:00  INFO 26592 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 26592 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
+2024-03-19T00:11:27.035+09:00  INFO 26592 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-19T00:11:27.705+09:00  INFO 26592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-19T00:11:27.713+09:00  INFO 26592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-19T00:11:27.715+09:00  INFO 26592 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-19T00:11:27.757+09:00  INFO 26592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-19T00:11:27.758+09:00  INFO 26592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 655 ms
+2024-03-19T00:11:28.005+09:00  INFO 26592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-03-19T00:11:28.012+09:00  INFO 26592 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.328 seconds (process running for 1.931)
+2024-03-19T00:11:32.640+09:00  INFO 26592 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19T00:11:32.640+09:00  INFO 26592 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-19T00:11:32.641+09:00  INFO 26592 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-19T00:11:33.833+09:00  INFO 26592 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
+2024-03-19T00:59:58.171+09:00  INFO 26592 --- [RMI TCP Connection(53)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-19T00:59:59.818+09:00  INFO 17100 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 17100 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
+2024-03-19T00:59:59.821+09:00  INFO 17100 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-19T01:00:00.463+09:00  INFO 17100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-19T01:00:00.471+09:00  INFO 17100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-19T01:00:00.471+09:00  INFO 17100 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-19T01:00:00.512+09:00  INFO 17100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-19T01:00:00.512+09:00  INFO 17100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 663 ms
+2024-03-19T01:00:00.753+09:00  INFO 17100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-03-19T01:00:00.759+09:00  INFO 17100 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.244 seconds (process running for 1.805)
+2024-03-19T01:00:05.259+09:00  INFO 17100 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19T01:00:05.259+09:00  INFO 17100 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-19T01:00:05.260+09:00  INFO 17100 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-19T01:00:06.124+09:00  INFO 17100 --- [http-nio-9090-exec-2] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
+2024-03-19T01:00:06.192+09:00  INFO 17100 --- [http-nio-9090-exec-2] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
+2024-03-19T01:00:37.022+09:00  INFO 17100 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-19T01:00:38.468+09:00  INFO 23332 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 23332 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
+2024-03-19T01:00:38.470+09:00  INFO 23332 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-19T01:00:39.040+09:00  INFO 23332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-19T01:00:39.048+09:00  INFO 23332 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-19T01:00:39.048+09:00  INFO 23332 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-19T01:00:39.089+09:00  INFO 23332 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-19T01:00:39.089+09:00  INFO 23332 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 591 ms
+2024-03-19T01:00:39.326+09:00  INFO 23332 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-03-19T01:00:39.331+09:00  INFO 23332 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.153 seconds (process running for 1.69)
+2024-03-19T01:01:17.063+09:00  INFO 23332 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19T01:01:17.063+09:00  INFO 23332 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-19T01:01:17.064+09:00  INFO 23332 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-19T01:01:17.935+09:00  INFO 23332 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
+2024-03-19T01:01:17.999+09:00  INFO 23332 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
+2024-03-19T01:13:28.303+09:00  INFO 23332 --- [RMI TCP Connection(16)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-19T01:13:29.789+09:00  INFO 18916 --- [main] c.t.PlaytodaysfortuneApplication         : Starting PlaytodaysfortuneApplication using Java 17.0.2 with PID 18916 (D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune\bin\main started by 지히 in D:\0.Genie_Project\PlayWith\workspace_playwith\playtodaysfortune)
+2024-03-19T01:13:29.791+09:00  INFO 18916 --- [main] c.t.PlaytodaysfortuneApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-03-19T01:13:30.374+09:00  INFO 18916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
+2024-03-19T01:13:30.382+09:00  INFO 18916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-19T01:13:30.382+09:00  INFO 18916 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-19T01:13:30.424+09:00  INFO 18916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-19T01:13:30.425+09:00  INFO 18916 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 605 ms
+2024-03-19T01:13:30.704+09:00  INFO 18916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
+2024-03-19T01:13:30.711+09:00  INFO 18916 --- [main] c.t.PlaytodaysfortuneApplication         : Started PlaytodaysfortuneApplication in 1.219 seconds (process running for 1.786)
+2024-03-19T01:13:33.211+09:00  INFO 18916 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-19T01:13:33.212+09:00  INFO 18916 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-19T01:13:33.212+09:00  INFO 18916 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-19T01:13:34.052+09:00  INFO 18916 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.
+2024-03-19T01:13:34.133+09:00  INFO 18916 --- [http-nio-9090-exec-1] c.t.api.kakao.KakaoMessenger             : Success to send fortune message.

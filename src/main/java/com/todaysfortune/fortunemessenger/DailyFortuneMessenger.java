@@ -1,5 +1,7 @@
 package com.todaysfortune.fortunemessenger;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
@@ -21,9 +23,9 @@ public class DailyFortuneMessenger {
 	@Scheduled(cron = "0 0 9 * * *")
 	public void sendDailyZodiacFortune() {
 		//오늘의 띠별 운세 받아오기
-		StringBuilder fortuneText = scraper.scrapeZodiacFortune();
-		System.out.println("오늘의 운세: " + fortuneText);
-		messenger.sendKakaotalkDefault(fortuneText.toString(), KakaoApiConfig.MESSAGE_TO_ME_URL);
+		List<String> fortuneList = scraper.scrapeZodiacFortune();
+		System.out.println("오늘의 운세: " + fortuneList.toString());
+		messenger.sendTextMessageDefaultTwice(fortuneList, KakaoApiConfig.MESSAGE_TO_ME_URL);
 	}
 
 }
