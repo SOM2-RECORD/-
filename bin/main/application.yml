@@ -1,0 +1,11 @@
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+  port: 9090
+  
+logging:
+  file:
+    path: log/
+    name: AppLog.log
