@@ -20,7 +20,7 @@ public class DailyFortuneMessenger {
 	private ZodiacFortuneScraper scraper;
 	
 	// cron 초 분 시 일 월 요일 - *:매번
-	@Scheduled(cron = "0 0 9 * * *")
+	@Scheduled(cron = "0 15 21 * * *")
 	public void sendDailyZodiacFortune() {
 		// 오늘의 띠별 운세 받아오기
 		List<String> fortuneList = scraper.scrapeZodiacFortune();
